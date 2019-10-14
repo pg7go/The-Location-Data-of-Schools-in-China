@@ -17,17 +17,19 @@ Python Scrapy框架
 替换代码里的`ak`变量值
 ## 选择收集内容
 学校/大学/中学/小学/幼儿园/培训班……  
-`           request=scrapy.FormRequest(  
-                url="http://api.map.baidu.com/place/v2/search",  
-                formdata={'city_limit': 'true',  
-                          'query':'学校',  
-                          'output':'json',  
-                          'ak':self.ak,  
-                          'region': region  
-                          },  
-                method='get',  
-                callback=self.parse  
-            )`  
+```
+request=scrapy.FormRequest(  
+    url="http://api.map.baidu.com/place/v2/search",  
+    formdata={'city_limit': 'true',  
+              'query':'学校',  
+              'output':'json',  
+              'ak':self.ak,  
+              'region': region  
+              },  
+    method='get',  
+    callback=self.parse  
+)
+```
 直接替换query里的值就行  
 ## 保存位置
 `file_name="学校.json"`  
