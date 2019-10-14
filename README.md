@@ -1,10 +1,10 @@
 # The-Location-Data-of-Schools-in-China
 中国所有学校地理位置Json数据库（省市区地址，坐标）（分校区，大学，中学，小学等等）（Python爬虫）
 # 已收集数据（JSON格式）
-'所有学校（28610个，分校区，省市区，详细地址，坐标）  
-'所有学校（28610个，分校区，省市区）  
-'大学（8084个，分校区，省市区，详细地址，坐标）  
-'大学（8084个，分校区，省市区）  
+* 所有学校（28610个，分校区，省市区，详细地址，坐标）  
+* 所有学校（28610个，分校区，省市区）  
+* 大学（8084个，分校区，省市区，详细地址，坐标）  
+* 大学（8084个，分校区，省市区）  
 # 数据来源  
 百度地图API：http://lbsyun.baidu.com/index.php?title=webapi/guide/webservice-placeapi  
 地区列表：https://github.com/modood/Administrative-divisions-of-China/blob/master/dist/areas.json  
